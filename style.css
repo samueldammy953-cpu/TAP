@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(to bottom, #0f172a, #1e293b);
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background: #020617;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  text-align: center;
+  width: 300px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.tap-circle {
+  width: 160px;
+  height: 160px;
+  background: #4f46e5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 1rem auto;
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.5);
+}
+.hidden {
+  display: none;
+}
+button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 1rem;
+  background: #3b82f6;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background: #2563eb;
+}
